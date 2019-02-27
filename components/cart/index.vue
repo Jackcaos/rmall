@@ -98,7 +98,7 @@ export default {
             let sum = 0
             this.cartList.forEach((item)=>{
                 if(item.state == 1){
-                    sum = sum + item.num + item.money
+                    sum = sum + item.num * item.money
                 }
             })
             return sum
@@ -136,7 +136,7 @@ export default {
             item.num++
         }
         else{
-            if(item.num >= 1){
+            if(item.num <= 1){
                 return;
             }
             item.num--
