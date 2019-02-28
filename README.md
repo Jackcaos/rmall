@@ -1,22 +1,3 @@
-# mall
+本项目名称叫做RMALL商城，主要实现了用户登录注册，商品数据加载，商品搜索，用户添加购物车，购物车内容编辑，订单下单接口等几个商城比较重要的功能，此项目其他的功能及相关接口还在进一步开发，并打算使用nuxt来对本项目的数据加载部分进行改造。 接口代码位于server/interface
 
-> My astounding Nuxt.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+页面主要就是商城主页，购物车页面，订单页，商品详情页等一些比较简单的页面，这些页面组件代码位于components,后续也会进行代码上的更替
